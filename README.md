@@ -379,7 +379,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **Your Name**
 - GitHub: [@yourusername](https://github.com/Deathblu)
 - LinkedIn: [Your Profile]((https://www.linkedin.com/in/anurag-wanwe-17b8ab243/))
-- Email: your.email@example.com
+- Email: [anuwanwe1463@gmail.com]
 
 **Project Link:** [https://github.com/yourusername/car-price-predictor](https://github.com/yourusername/car-price-predictor)
 
