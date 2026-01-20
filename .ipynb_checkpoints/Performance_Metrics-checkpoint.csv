@@ -1,0 +1,21 @@
+Model,RMSE,MAPE,R2
+Tuned Gradient Boosting Regressor," 2,176.83 ",9.65%,96.13%
+Gradient Boosting Regressor," 2,393.73 ",9.04%,95.32%
+Extra Trees Regressor," 2,586.65 ",9.21%,94.53%
+Tuned Extra Trees Regressor," 2,812.12 ",10.21%,93.54%
+Random Forest Regressor," 2,892.96 ",10.18%,93.16%
+Tuned Decision Tree Regressor," 2,952.92 ",11.14%,92.87%
+Linear Regression," 3,274.62 ",11.35%,91.24%
+Decision Tree Regressor," 3,277.50 ",12.19%,91.22%
+Lasso Regression," 3,294.70 ",11.37%,91.13%
+Ridge Regression," 3,304.51 ",11.50%,91.07%
+Tuned Ridge Regression," 3,334.30 ",12.09%,90.91%
+Tuned ElasticNet Regression," 3,339.96 ",12.19%,90.88%
+Tuned Lasso Regression," 3,430.49 ",13.06%,90.38%
+Tuned SVR," 3,577.08 ",11.61%,89.54%
+Tuned KNN Regressor," 3,652.91 ",13.44%,89.09%
+ElasticNet Regression," 3,684.46 ",13.08%,88.90%
+Tuned Random Forest Regressor," 3,811.94 ",11.41%,88.12%
+KNN Regressor," 6,841.66 ",19.29%,61.74%
+Kerneled_SVR," 12,216.11 ",41.17%,-21.98%
+Linear SVR," 19,057.54 ",98.51%,-196.85%
