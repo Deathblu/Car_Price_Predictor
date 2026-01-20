@@ -322,7 +322,8 @@ If you need to integrate the model as an API:
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Dashboard](screenshots/main_interface.png)
+![Main Dashboard](screenshots/main_page1.png)
+![Main Dashboard](screenshots/main_page2.png)
 *Interactive dashboard with numerical and categorical input fields. Clean, modern design with gradient accents and organized feature sections.*
 
 ### Prediction Results
