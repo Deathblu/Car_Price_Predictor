@@ -80,7 +80,7 @@ This machine learning project predicts the market value of cars based on **74 co
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/car-price-predictor.git
+git clone https://github.com/Deathblu/car-price-predictor.git
 cd car-price-predictor
 
 # Install dependencies
@@ -119,15 +119,15 @@ streamlit run streamlit_app.py
 car-price-predictor/
 │
 ├── streamlit_app.py          # Main Streamlit application
-├── car_price_model.pkl       # Trained Gradient Boosting model
+├── final_model.pkl           # Trained Gradient Boosting model
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # Project documentation
 │
 ├── notebooks/                # (Optional) Jupyter notebooks
-│   └── model_training.ipynb  # Model development & training
+│   └── model_selection.ipynb  # Model development & training
 │
 ├── data/                     # (Optional) Dataset folder
-│   └── car_data.csv          # Original dataset
+│   └── car_price.csv          # Original dataset
 │
 └── .gitignore               # Git ignore file
 ```
@@ -144,7 +144,7 @@ car-price-predictor/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/car-price-predictor.git
+git clone https://github.com/Deathblu/car-price-predictor.git
 cd car-price-predictor
 ```
 
@@ -270,7 +270,7 @@ import pandas as pd
 import joblib
 
 # Load and preprocess data
-df = pd.read_csv('car_data.csv')
+df = pd.read_csv('car_pricedata.csv')
 X = pd.get_dummies(df.drop('price', axis=1))  # One-hot encoding
 y = df['price']
 
@@ -284,7 +284,7 @@ model = GradientBoostingRegressor(
 model.fit(X, y)
 
 # Save model
-joblib.dump(model, 'car_price_model.pkl')
+joblib.dump(model, 'final_model.pkl')
 ```
 
 ---
@@ -377,8 +377,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 👨‍💻 Contact
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- GitHub: [@yourusername](https://github.com/Deathblu)
+- LinkedIn: [Your Profile]((https://www.linkedin.com/in/anurag-wanwe-17b8ab243/))
 - Email: your.email@example.com
 
 **Project Link:** [https://github.com/yourusername/car-price-predictor](https://github.com/yourusername/car-price-predictor)
@@ -396,9 +396,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/car-price-predictor?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/car-price-predictor?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/car-price-predictor)
+![GitHub stars](https://img.shields.io/github/stars/Deathblu/car-price-predictor?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Deathblu/car-price-predictor?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Deathblu/car-price-predictor)
 
 ---
 
