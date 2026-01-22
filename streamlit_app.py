@@ -524,7 +524,7 @@ if st.button("🔮 Predict Price Now"):
 with st.sidebar:
     st.markdown("---")
     st.header("📊 Model Stats")
-    st.metric("Accuracy", "MAPE = 9.65%", "Low Rate of Error")
+    st.metric("Accuracy", "Upto 90%", "Low Rate of Error")
     st.metric("Features", "74 total", "15 numerical + 59 categorical")
     
     st.markdown("---")
