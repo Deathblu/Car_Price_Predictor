@@ -495,7 +495,7 @@ if st.button("🔮 Predict Price Now"):
                 price_str = f"\u20B9{prediction:.0f}"
             
             st.markdown(f'<div class="big-price">{price_str}</div>', unsafe_allow_html=True)
-            st.markdown(f"<p style='text-align: center; color: #666; font-size: 18px;'>Exact: ${prediction:,.2f}</p>", unsafe_allow_html=True)
+            st.markdown(f"<p style='text-align: center; color: #666; font-size: 18px;'>Exact: \u20B9{prediction:,.2f}</p>", unsafe_allow_html=True)
             
             # Price range estimate (±10%)
             lower = prediction * 0.9
