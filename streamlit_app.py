@@ -488,19 +488,19 @@ if st.button("🔮 Predict Price Now"):
             
             # Format price nicely
             if prediction >= 1000000:
-                price_str = f"${prediction/1000000:.2f}M"
+                price_str = f"\u20B9{prediction/1000000:.2f}M"
             elif prediction >= 1000:
-                price_str = f"${prediction/1000:.1f}K"
+                price_str = f"\u20B9{prediction/1000:.1f}K"
             else:
-                price_str = f"${prediction:.0f}"
+                price_str = f"\u20B9{prediction:.0f}"
             
             st.markdown(f'<div class="big-price">{price_str}</div>', unsafe_allow_html=True)
-            st.markdown(f"<p style='text-align: center; color: #666; font-size: 18px;'>Exact: ${prediction:,.2f}</p>", unsafe_allow_html=True)
+            st.markdown(f"<p style='text-align: center; color: #666; font-size: 18px;'>Exact: \u20B9{prediction:,.2f}</p>", unsafe_allow_html=True)
             
             # Price range estimate (±10%)
             lower = prediction * 0.9
             upper = prediction * 1.1
-            st.markdown(f"<p style='text-align: center; color: #888;'>Typical range: ${lower:,.0f} - ${upper:,.0f}</p>", unsafe_allow_html=True)
+            st.markdown(f"<p style='text-align: center; color: #888;'>Typical range: \u20B9{lower:,.0f} - \u20B9{upper:,.0f}</p>", unsafe_allow_html=True)
             
             st.markdown('</div>', unsafe_allow_html=True)
             
@@ -524,7 +524,7 @@ if st.button("🔮 Predict Price Now"):
 with st.sidebar:
     st.markdown("---")
     st.header("📊 Model Stats")
-    st.metric("Accuracy", "MAPE = 9.65%", "Low Rate of Error")
+    st.metric("Accuracy", "Upto 90%", "Low Rate of Error")
     st.metric("Features", "74 total", "15 numerical + 59 categorical")
     
     st.markdown("---")
